@@ -42,7 +42,7 @@ const getComputerChoice = () => {
 
 console.log(getComputerChoice());
 
-
+//the rules
 const determineWinner = (userChoice, computerChoice) => {
     if (userChoice === computerChoice) {
         return 'tie game'
@@ -83,4 +83,4 @@ const playGame = () => {
         console.log(determineWinner(userChoice, computerChoice));
 };
 
-playGame();
+playGame(); //input userChoice here
